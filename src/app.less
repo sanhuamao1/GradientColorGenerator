@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.bg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    .wrapper {
+        width: 450px;
+        padding: 25px;
+        background: #fff;
+        border-radius: 7px;
+        box-shadow: 0 15px 30px rgb(0 0 0 / 6%);
+        .gradient-box{
+            height: 220px;
+            width: 100%;
+            border-radius: 7px;
+        }
+        .option-box{
+            display: flex;
+            margin: 20px 0;
+            justify-content: space-between;
+            .direction,.colors{
+                margin-top: 4px;
+            }
+            .colors{
+                width: 160px;
+                div{
+                    display: flex;
+                    height: 42px;
+                    align-items: center;
+                    input{
+                        height: 32px;
+                    }
+                }
+            }
+            select{
+                height: 42px;
+                line-height: 42px;
+                font-size: 16px;
+                padding-left: 16px;
+                font-family: sans-serif;
+                border-radius: 4px;
+                border: 1px solid #b2b2b2;
+            }
+        }
+        .description{
+            padding: 12px 14px;
+            border-radius: 4px;
+            border: 1px solid #b2b2b2;
+            letter-spacing: 1px;
+            color: #4d4d4d;
+        }
+        .btn-box{
+            text-align: right;
+            margin-top: 12px;
+            display: flex;
+            justify-content: space-between;
+            button{
+                padding: 16px 0;
+                border-radius: 4px;
+                border: none;
+                background: #6878FF;
+                color: #fff;
+                font-size: 16px;
+                letter-spacing: 1px;
+                cursor: pointer;
+                width: 46%;
+                &:hover{
+                    background: #4a5ae0;
+                }
+            }
+        }
+    }
+}
+
